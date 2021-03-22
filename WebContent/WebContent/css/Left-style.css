@@ -1,0 +1,294 @@
+/* 레이아웃 */
+        #header {}
+        #nav {background-color: #FAFAFA ;}
+        #title {background-color: #58ACFA; clear: both;}
+        #footer {border-top: 1px solid #dbdbdb;} 
+        #wrap {width: 900px; margin: 0 auto;}
+        .form-group{border: 1px solid black; width: 50%; position: relative; left: auto;}
+       .cnt{width: 100%; height:1000px; }
+       .container {width: 100%;}
+       .container_all{width: 100%; height:100%; border: 1px solid yellow;}
+	   .container_v{width: 100%; height:100%; border: 1px solid red;}
+	  .container_b{width: 250%; height:100%; border: 1px solid blue;}
+        header {width: 100%; height: 30%; background-color: #fff;}
+        article {width: 100%; height: 50px; background-color: #81DAF5 ; border-radius: 10px 10px 0px 0px;}
+        aside { float: left; width: 20%; height: auto; } 
+        section {overflow: hidden; padding: 1%; width: 80%; height: 100%; background-color: #fff; text-align: center;}
+        footer {width: 100%; height: 150px; background-color: #FAFAFA; }
+        #cont_center > div {width: 48%; margin: 1%; height: 300px; background-color: #FAFAFA ; float: left; border-radius: 5px;}
+        #quick > div {width: 14.666%; margin: 1%; height: 150px; background-color: #F5ECCE ; float: left; border-radius: 5px; }
+        #banner > div {width: 100%; height: 70px; background-color: #FAFAFA; float: left; border-radius: 5px;}
+        
+        
+        /* 컨테이너 */
+        .container {position: relative; margin: 0 auto;}
+        
+        /* 헤더 */
+        .header {height: 300px; }
+        .header .logo-icon{height: 30%; width: 25%; padding-top: 1%; position: absolute; left: 0%;}
+        .header .header_menu {width: 100%; text-align: right; font-weight: bold;}
+        .header .header_menu a {color: #58ACFA ; padding: 8px 0 6px 10px; display: inline-block; transition: color 0.3s ease; font-size:17px; font-family: 'Abel', sans-serif;}
+        .header .header_menu a:hover {color: #F2F2F2;}
+        .header .header-icon{height: 80%; width: 100%; padding-top: 0%; position: absolute;}
+        
+        /* 타이틀 */
+        .title {position: relative; text-align: center;}
+        .title h2 {font-size: 23px; color: #fff; padding-top: 7px; font-weight: bold;}
+        .title .btn {
+            position: absolute; right: 10px; top: 10px;
+            width: 30px; height: 30px;
+            line-height: 25px;
+            background: #FAFAFA; color: #084B8A;
+            font-size: 20px;
+            font-weight : bold;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+        
+         /* 전체 메뉴 */
+        .nav {overflow: hidden; padding: 10px 0; display: none; }
+        .nav > div {float: left; width: 18%; padding: 1%}
+        .nav > div ul {list-style: none;}
+        .nav > div li {float: left; width: 100%; position: relative; padding-left: 30px; box-sizing: border-box;}
+        .nav > div h3 {font-size: 20px; color: #58ACFA; padding-left: 25px; font-weight: bold; margin-bottom: 4px;}
+        .nav > div li a {position: relative; font-size: 16px; margin: 4px;}
+        .nav > div li a:after {
+            content: '';
+            display: inline-block;
+            width: 0; height: 1px;
+            background: #58ACFA;
+            transition: all .2s ease-out;
+            border-radius :10px;
+            position: absolute; bottom: 0; left: 0;
+        }
+        .nav > div li:hover a:after {width: 100%;}
+        
+        /*박스 제목*/
+        .notice1 h1{font-size: 23px; font-weight: bold; color: #fff; padding: 7px;}
+        .notice1 h1 a{color: #fff; font-size: 10px; position: absolute; left : 20px;}
+        
+        /*학교 둘러보기*/
+        .slider figure img{position: relative; width: 80%; height: 70%; margin: 0 auto; padding-top: 7%;}
+        .slider .slick-dots {display: block; width: 100%; text-align: center;}
+        .slider .slick-dots li {display: inline-block; width: 10px; height: 10px; margin: 10px;}
+        .slider .slick-dots li button {
+            font-size: 0; line-height: 0;
+            display: block; width: 10px; height: 10px;
+            cursor: pointer;
+            background: #5dbfeb;
+            border-radius: 50%;
+        }
+        .slider .slick-dots li.slick-active button {background: #2b91c8;}
+        .slider .slick-prev {
+            position: absolute; left: 0; bottom: 0; z-index: 1000;
+            width: 30px; height: 30px;
+            display: inline-block;
+            text-indent: -9999px;
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+        .slider .slick-prev::before {
+            content:"\f053";
+            color: #5dbfeb;
+            text-indent: 0;
+            position: absolute; left: 9px; top: 8px;
+        }
+        .slider .slick-next {position: absolute; right: 0; bottom: 0; z-index: 1000;
+            width: 30px; height: 30px;
+            display: inline-block;
+            text-indent: -9999px;
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+        .slider .slick-next::before { 
+            content:"\f054";
+            color: #5dbfeb;
+            text-indent: 0;
+            position: absolute; left: 11px; top: 8px;
+        }
+        
+         /* 레프트 스타일  */
+   		       /* 레프트 스타일  */
+     /** 배경 지정 */
+    body {
+        background: white;
+}
+
+    /** 목록 스타일 초기화 및 중앙 배치, 가로 폭 지정 */
+    ul {
+        padding: 0;
+        margin: 50px auto;
+        list-style: none;
+        width: 200px;
+}
+		.menu{
+		width: 80%;
+		
+		}
+
+    /** 제목 영역의 초기화 처리 */
+    .title1 {
+        padding: 0;
+        margin: 0;
+        
+}
+
+    /** 링크의 클릭 영역 확대 및 배경 및 폰트 처리 */
+    .title1 > a {
+        display: block;
+        padding: 2px;
+        font-size: 14px;
+        font-weight: bold;
+        text-indent: 12px;
+        text-decoration: none;
+        color: white;
+        height: 32px;
+        line-height: 32px;
+        background: red;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        
+        /*그라디언트 지정*/
+        background: linear-gradient(top, #cecece 0%, #8f8f8f 100%);
+        background: -moz-linear-gradient(top, #cecece, #8f8f8f);
+        background: -webkit-gradient(linear, left top, left bottom, from(#cecece), to(#8f8f8f));
+    }
+
+    /** 현재 활성화된 요소에 적용할 배경이미지 지정 */
+    .selected {
+        background: #2288dd !important;
+        color: #fff !important;
+        
+        /*그라디언트 지정*/
+        background: linear-gradient(top, #6bb2ff 0%, #2288dd 100%) !important;
+        background: -moz-linear-gradient(top, #6bb2ff, #2288dd) !important; 
+        background: -webkit-gradient(linear, left top, left bottom, from(#6bb2ff), to(#2288dd)) !important;       
+    }
+    
+    /** 내용 영역 */
+    .content {
+    	padding:0px;
+        margin: 0;
+        background: white;
+        padding: 0px;
+        width:auto;
+        height: auto;
+        overflow-y: auto;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+	}
+	.content li{
+	
+		background: #FFF; 
+ 		position:relative;
+        width: 100%;
+        float:left;
+	    list-style-type:none;
+        overflow: hidden;
+        text-align: center;    
+        line-height: 45px;
+	}
+	.content li a{
+ 		  color: black;
+          text-align: center;
+          font-size: 15px;
+         
+	}
+        
+        /* 배너 */
+        
+        .slider1 figure img {position: relative; width: 70%; height: 80%; margin: 0 auto; padding: 1%;}
+        
+        
+        /* 퀵 메뉴 */
+        .quick-icon{width: 60%; height: 50%; margin-top: 12%; margin-bottom: 6%; }
+        #quick a{color: black; text-decoration: none; font-size: 1.1em; font-weight: bold;}
+        
+        
+         /* 푸터 */
+         .footer {text-align: center; padding: 30px 50px; height:150px;position:relative;  float: none; } 
+		.footer ul{width: 100%; height: 150px; position: absolute; top:-10px; left: -10px;}
+		.footer li{position:relative;padding: 0 7px 0 10px;width:100%; display: inline; white-space: nowrap;}
+		.footer li a{color: black;}
+         .footer li:before {content: ''; width: 1px; height: 12px; background-color: #dbdbdb; position: absolute; left: 0; top: 2px;}
+        .footer li:first-child:before {width: 0;}
+        .footer address {padding-top: 15px;}
+        
+        
+        /*공지사항 가정통신문 내용*/
+        .notice_text {
+			padding : 5%;
+			margin: 0 auto;
+			}
+			.notice_text li {
+			   	position: relative;
+			    line-height: 24px;
+			    font-size: 12px;
+			    vertical-align: middle;
+			    overflow: hidden;
+			}
+			.notice_text li a{
+			   	display: block;
+			    width: 70%;
+			    float: left;
+			    text-align:left;
+			    color: #444;
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			    text-decoration: none;
+			}
+			.notice_text li span.date {
+			    display: block;
+			    width: 25%;
+			    float: right;
+			    overflow: hidden;
+			    text-align: right;
+			    color: #8c8c8c;
+			    text-overflow: ellipsis;
+			}
+		/* 화면 너비 0 ~ 1200px */
+        @media (max-width: 1220px){
+           
+			#wrap {width: 80%;}
+			.container {width: 100%;}
+	       
+            .nav > div {width: 31.33%; padding: 1%}
+            .title .btn {right: 5px;}
+            .menu{width: 100%;}
+            header{height:30%; }
+			aside {float: left; width: 15%; height: auto;}
+         	section {float: right; width: 80%; height: 200%;} 
+            footer {clear: both; width: 100%; height: 150px;}
+			
+        }
+
+
+        /* 화면 너비 0 ~ 768px */
+        @media (max-width: 768px){
+	       	.container {width: 100%;}
+	        
+            .nav > div li{float: none; width: 100%;}
+            .header .logo-icon{height: 80%; width: 40%;}
+            aside {float: left; width: 100%; height: auto;}
+            #cont_center > div {width: 98%;}
+            #quick > div {width: 31.33%}
+           aside {float: none; width: 100%; height: auto;}
+             .menu{width: 100%;}
+             section {float: none; width: 100%; height: auto;}
+             
+        }
+
+            /* 화면 너비 0 ~ 550px */
+        @media (max-width: 550px){
+       
+            .container {width: 100%;}
+       		
+            .header .logo-icon{height: 80%; width: 50%;}
+            /*.title .btn {display: none;}*/
+             .nav > div li {width: 100%;}
+             #quick > div {width: 48%}
+             .slider1 figure img {position: relative; width: 80%; height: 20%; overflow: hidden; margin: 0 auto;}
+             aside {float: none; width: 100%; height: auto;}
+             .menu{width: 100%;}
+             section {float: none; width: 100%; height: auto;}
+ 
+        }
