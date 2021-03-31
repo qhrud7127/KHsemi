@@ -47,7 +47,8 @@
 
 > ## 데이터베이스 설계
 >
->>![samboLib](https://user-images.githubusercontent.com/77611380/113113788-9e3b0980-9245-11eb-8ed1-d3019c4efb89.png)
+>>![sambosch](https://user-images.githubusercontent.com/77611380/113137804-f67f0500-925f-11eb-97c2-5ba45a6fdbb0.png)
+
 >>
 > ## 결과
 >
