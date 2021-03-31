@@ -52,5 +52,6 @@
 >>
 > ## 결과
 >
->>![samboLibMain](https://user-images.githubusercontent.com/77611380/113113975-d9d5d380-9245-11eb-8cdc-c7c7457fcef4.png)
+>>![samboschMain](https://user-images.githubusercontent.com/77611380/113137869-0d255c00-9260-11eb-95a4-3a3ff0bf1954.png)
+
 
